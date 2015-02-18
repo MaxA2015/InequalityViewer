@@ -19,7 +19,7 @@ void draw() {
   println("x = " + x);
   println("y = " + y);
 
-  if (x <= -3 && y >= 4) {
+  if (x > 6 && y <= -5) {
     println("yes");
     ellipse(mouseX, mouseY, 10, 10);
   } else {
